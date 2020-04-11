@@ -1,0 +1,612 @@
+/* "巨幕样式" */
+.giant-screen{
+	width: 1000px;
+	height: 550px;
+	margin-left: 150px;
+	margin-top: 120px;
+	/* border: 1px solid red; */
+}
+/* "巨幕"样式标题文本 */
+.giant-screen .screen-title{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 舒体;
+	color: #FFF;
+}
+
+/* "巨幕"文本字段1 */
+.giant-screen .screen-font{
+	margin-top: 100px;
+	color: #FFF;
+	text-indent: 50px;//文本缩进
+	font-family: 楷体;
+	font-size: 30px;
+}
+
+/* "巨幕"文本字段2 */
+.giant-screen .screen-font1{
+	margin-top: 70px;
+	color: #FFF;
+	text-indent: 50px;//文本缩进
+	font-family: 楷体;
+	font-size: 30px;
+}
+
+/* "开始"字样样式 */
+.giant-screen .nav-start{	
+	text-decoration: none;
+	float: left;
+	margin-top: 50px;
+	display: block;//因为用的是a标签,所以应该转换为块元素,不然无法设置宽高
+	height: 50px;
+	width: 100px;
+	height: 55px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	font-size: 20px;
+	font-family: 宋体;
+	background-color:#63BAD0;
+	border-radius: 5px;
+	cursor: pointer;//将鼠标样式设为手指形状
+	transition:border-radius 0.5s;
+	-webkit-transition: 1s;
+}
+
+/* "了解更多"字样样式 */
+.giant-screen .nav-more{
+	text-decoration: none;
+	margin-left: 150px;
+	margin-top: 50px;	
+	display: block;//因为用的是a标签,所以应该转换为块元素,不然无法设置宽高
+	float: left;
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	font-size: 20px;
+	font-family: 宋体;
+	border: 2px solid #FFF;
+	cursor: pointer;//将鼠标样式设为手指形状
+	transition:border-radius 0.5s;
+	-webkit-transition: 1s;
+}
+
+/* 当鼠标移动在 "开始"字样样式上时 */
+.giant-screen .nav-start:hover{
+	background-color: #1A42E6;
+	border-radius: 20px;
+}
+
+/* 当鼠标移动在 "了解更多" 字样样式上时 */
+.giant-screen .nav-more:hover{
+	border: 2px solid #1A42E6;
+	border-radius: 30px;
+}
+/* "资讯"样式 */
+.background-2 .information{
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+/*"资讯"标题文字样式 */
+.background-2 .information .information-title{
+	color: #000;
+	font-family: 舒体;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+/*"资讯" 1样式 */
+.background-2 .information .information-body1{
+	margin-top: 30px;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+	float: left;
+}
+
+/* "资讯"2包含样式 */
+.background-2 .information .contain{
+	float: left;
+	margin-left: 30px;
+}
+/*"资讯" 2样式 */
+.background-2 .information .contain .information-body2{
+	margin-top: 30px;
+	width: 385px;
+	height: 285px;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+}
+
+/*"资讯" 3样式 */
+.background-2 .information .contain .information-body3{
+	margin-top: 30px;
+	width: 385px;
+	height: 285px;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+	background-color: #1A42E6;
+}
+
+/* "资讯" 图片1样式 */
+.information-img1{
+	width: 100%;
+	height: 100%;
+	transition:width 1s;
+	-webkit-transition: 1s;
+	border-radius: 15px;
+}
+
+/* "资讯" 图片1样式选中后样式 */
+.information-img1:hover{
+	width: 885px;
+	height: 650px;
+	border-radius: 15px;
+	
+}
+/* "资讯" 图片1中的标题文本样式 */
+.information .information-body1 .textTitle1{
+	width: 100%;
+	position: absolute;
+	bottom: 70px;
+	color: #FFF;
+	font-size: 35px;
+	font-family: 楷体;
+	font-weight: bold;
+	text-indent: 50px;
+}
+
+/* "资讯" 图片1中的文本段落样式 */
+.information .information-body1 .textFont{
+	position: relative;
+	top: 20px;
+	color: #FFF;
+	font-family: 楷体;
+	font-size: 25px;
+}
+
+/* "资讯" 图片2中的标题文本样式 */
+.information .contain .information-body2 .textTitle2{
+	width: 100%;
+	position: absolute;
+	bottom: 30px;
+	text-indent: 30px;
+	color: #FFF;
+	font-family: 楷体;
+	font-size: 35px;
+}
+
+/* "资讯" 图片2中的文本段落样式 */
+.information .contain .information-body2 .textTitle2 .textFont2{
+	position: relative;
+	top: 10px;
+	color: #FFF;
+	font-family: 楷体;
+	font-size: 20px;
+}
+
+/* "资讯" 图片3中的标题文本样式 */
+.information .contain .information-body3 .textTitle3{
+	width: 100%;
+	position: absolute;
+	bottom: 30px;
+	text-indent: 30px;
+	color: #FFF;
+	font-family: 楷体;
+	font-size: 35px;
+}
+
+/* "资讯" 图片3中的文本段落样式 */
+.information .contain .information-body3 .textTitle3 .textFont3{
+	position: relative;
+	top: 10px;
+	color: #FFF;
+	font-family: 楷体;
+	font-size: 20px;
+}
+
+/* "资讯" 图片2样式 */
+.information-img2{
+	width: 100%;
+	height: 100%;
+	transition: width 1s;
+	-webkit-transition: 1s;
+	border-radius: 15px;
+}
+
+/* "资讯" 图片2样式选中后样式 */
+.information-img2:hover{
+	width: 435px;
+	height: 315px;
+	border-radius: 10px;
+	
+}
+
+/* "资讯" 图片3样式 */
+.information-img3{
+	width: 100%;
+	height: 100%;
+	transition: width 1s;
+	-webkit-transition: 1s;
+	border-radius: 15px;
+}
+
+/* "资讯" 图片3样式选中后样式 */
+.information-img3:hover{
+	width: 435px;
+	height: 315px;
+	border-radius: 15px;
+}
+
+/* "真武山" 图片的默认样式  */
+.background-3 .select-img1{
+	width: 300px;
+	height: 300px;
+	margin-left: 100px;
+	position: absolute;
+	top: 320px;
+	border: 3px solid #FFF;
+	border-radius: 13px;
+	transition: opacity 1s;
+	-webkit-transition: 1s;
+	opacity: 1;
+	color: #FFF;
+}
+
+/* "真武山" 图片选中后的样式  */
+.background-3 .select-img1:hover{
+	background-color: #FFF;
+	color: #000;
+	opacity: 0.7;
+	cursor: pointer;
+	border: 3px solid #FFF;
+}
+
+/* "太极洞" 图片的默认样式  */
+.background-3 .select-img2{
+	width: 300px;
+	height: 300px;
+	margin-left: 500px;
+	position: absolute;
+	top: 320px;
+	border: 3px solid #FFF;
+	border-radius: 13px;
+	transition: opacity 1s;
+	-webkit-transition: 1s;
+	opacity: 1;
+	color: #FFF;
+}
+
+/* "太极洞" 图片选中后的样式  */
+.background-3 .select-img2:hover{
+	background-color: #FFF;
+	color: #000;
+	opacity: 0.7;
+	cursor: pointer;
+	border: 3px solid #FFF;
+}
+
+/* "万佛峡谷" 图片的默认样式  */
+.background-3 .select-img3{
+	width: 300px;
+	height: 300px;
+	margin-left: 900px;
+	position: absolute;
+	top: 320px;
+	border: 3px solid #FFF;
+	border-radius: 13px;
+	transition: opacity 1s;
+	-webkit-transition: 1s;
+	opacity: 1;
+	color: #FFF;
+}
+
+/* "万佛峡谷" 图片选中后的样式 */
+.background-3 .select-img3:hover{
+	background-color: #FFF;
+	color: #000;
+	opacity: 0.7;
+	cursor: pointer;
+	border: 3px solid #FFF;
+}
+
+/* "真武山" 图片下的文本标题样式 */
+.background-3 .select-img1 .textTitle5{
+	margin-left: 50px;
+	margin-top: 50px;
+	/* color: #FFF; */
+	font-family: 楷体;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+/* "真武山" 图片下的文本段落样式 */
+.background-3 .select-img1 .textTitle5 .textFont5{
+	width: 270px;
+	font-size: 25px;
+	font-family: 楷体;
+	margin-top: 25px;
+	margin-left: -25px;
+}
+
+/* "太极洞" 图片下的文本标题样式 */
+.background-3 .select-img2 .textTitle6{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: 楷体;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+/* "太极洞" 图片下的文本段落样式 */
+.background-3 .select-img2 .textFont6{
+	width: 270px;
+	font-size: 25px;
+	font-family: 楷体;
+	margin-top: 25px;
+	margin-left: -25px;
+}
+
+/* "万佛峡谷" 图片下的文本标题样式 */
+.background-3 .select-img3 .textTitle7{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: 楷体;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+/* "万佛峡谷" 图片下的文本段落样式 */
+.background-3 .select-img3 .textFont7{
+	width: 270px;
+	font-size: 25px;
+	font-family: 楷体;
+	margin-top: 25px;
+	margin-left: -25px;
+}
+
+/* "真武山" 背景图片样式 */
+.bg-style1{
+	background-image: url(../images/8.jpg);
+}
+
+/* "太极洞" 背景图片样式 */
+.bg-style2{
+	background-image: url(../images/6.jpg);
+}
+
+/* "万佛峡谷" 背景图片样式 */
+.bg-style3{
+	background-image: url(../images/7.jpg);
+}
+
+/* "真武山,太极洞,万佛峡谷" 页面文本标题 */
+.screen2-Title{
+	color: #FFF;
+	margin-left: 50px;
+	padding-top: 80px;
+	font-family: 楷体;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+/* "真武山,太极洞,万佛峡谷" 页面文本段落 */
+.screen2-font{
+	padding-top: 40px;
+	font-size: 28px;
+}
+
+/* "凤冈的详细地址" 的主盒子样式 */
+.background-4 .introduce{
+	width: 90%;
+	height: 600px;
+	margin: auto auto;
+	background-image: url(../images/10.jpg);
+	border-radius: 13px;
+	background-repeat:no-repeat;
+	opacity: 1;
+	position: relative;
+}
+
+/* "凤冈的详细地址" 的主盒子上的遮罩层 */
+.background-4 .introduce .bgimg-mask{
+	border-radius: 13px; position: absolute;
+	width: 100%; height: 100%;
+}
+
+/* "凤冈的详细地址" 的标题文本样式(我们将text-indent的值设为负值,达到最初不显示在页面上的效果) */
+.background-4 .introduce .Title8{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	top: 0;
+	padding-top: 100px;
+	text-indent: -6200px;
+	color: #FFF;
+	font-size: 45px;
+	font-family: 楷体;
+	font-weight: bold;
+	border-radius: 13px;
+	transition: background-color 1.5s;
+	-webkit-transition: 1.5s;
+	background-color:rgba(0,0,0,0);
+	transition: background-color 1.5s;
+	-webkit-transition: 1.5s;
+}
+
+/* "凤冈的详细地址" 的标题文本样式点击后的效果 */
+.background-4 .introduce .Title8:hover{
+	text-indent: 100px;
+	background-color:rgba(0,0,0,0.7);
+}
+
+/* "凤冈的详细地址" 的链接标签默认样式 */
+.background-4 .introduce .Title8 a{
+	color: #DDD;
+}
+
+/* "凤冈的详细地址" 的链接标签点击后样式 */
+.background-4 .introduce .Title8 a:hover{
+	color: #1A42E6;
+}
+
+/* "凤冈的详细地址" 的文本段落样式 */
+.background-4 .introduce .Title8 .describe{
+	 color: #CCC;
+	 position: absolute; 
+	 top: 310px; 
+	 left: 50px; 
+	 font-size: 35px; 
+}
+
+/* "爱护环境" 的标题文本样式 */
+.background-5 .textTitle8{
+	width: 550px;
+	height: 170px;
+	margin-top: 80px;
+	margin-left: 75px;
+	font-size: 38px;
+	font-family: 楷体;
+	font-weight: bold;
+	float: left;
+}
+
+/* "爱护环境" 的文本段落样式 */
+.background-5 .textTitle8 .textFont8{
+	color: #FFF;
+	text-align: center;
+	font-weight: normal;
+	font-family: 宋体;
+	font-size: 22px;
+	width: 120px;
+	height: 45px;
+	line-height: 45px;
+	margin-top: 55px;
+	border-radius: 5px;
+	background-color: rgba(33,150,243,1);
+}
+
+/* "爱护环境" 的按钮默认的效果 */
+.background-5 .textTitle8 .textFont8 a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* "爱护环境" 的按钮点击后的效果 */
+.background-5 .textTitle8 .textFont8 a:hover{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold; 
+}
+
+/* 爱护环境的图片显示样式 */
+.background-5 .bgimg-div{
+	width: 600px;
+	height: 65%;
+	float: right;
+	margin-right: 50px;
+	margin-top: 50px;
+	border-radius: 15px;
+	background-image: url(../images/11.jpg);
+}
+
+/* 浮动清除 */
+.clearBoth{
+	clear: both;
+}
+
+/* "特色食品"主盒子样式 */
+.background-6 .specialty{
+	margin: 0 auto;
+	width: 90%;
+	height: 700px;
+}
+
+/* "特色食品"标题文本样式 */
+.background-6 .specialty .specialty-title{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 宋体;
+	margin-left: 30px;
+}
+
+/* "特色食品"文本段落样式 */
+.background-6 .specialty .specialty-title .specialty-font{
+	width: 900px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 宋体;
+}
+
+/* "特色食品"中的"吃货专场"按钮样式 */
+.background-6 .specialty .specialty-title .specialty-font div{
+	line-height: 50px;
+	text-align: center;
+	margin-top: 30px;
+	width: 120px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: rgba(33,150,243,1);
+}
+
+/* "特色食品"中的"吃货专场"按钮文字默认样式 */
+.background-6 .specialty .specialty-title .specialty-font  a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* "特色食品"中的"吃货专场"按钮文字点击后样式 */
+.background-6 .specialty .specialty-title .specialty-font  a:hover{
+	color: #EEE;
+	text-decoration: none;
+}
+
+.a-style{
+	color: rgba(85,26,139,1);
+}
+
+.a-style:hover{
+	color: rgba(33,150,243,1);
+}
+
+/* "特色食品"中的"食品介绍"标题文本样式 */
+.background-6 .specialty .food1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 65px;
+	width: 260px;
+	float: left;
+	margin-left: 8%;
+}
+
+/* "特色食品"中的"食品介绍"文本段落样式 */
+.background-6 .specialty .food1 div{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+/* 合作伙伴主盒子样式 */
+.language{
+	color: #DDD;
+	font-size: 20px;
+	margin-left: 50px;
+	padding-top: 50px;
+	width: 1300px;
+}
+
+/* 合作伙伴内容盒子样式 */
+.language div{
+	margin: 0 auto;
+	width: 100%;
+	height: 80px;
+	background-image: url(../images/12.png);
+}
